@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nitish.border_wait_times" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactUs"
+            android:label="@string/title_activity_contact_us" >
+        </activity>
+        <activity
+            android:name=".Favourite"
+            android:label="@string/title_activity_favourite" >
+        </activity>
+        <activity
+            android:name=".settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".locations_info"
+            android:label="@string/title_activity_locations_info" >
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".Location_info"
+            android:label="@string/title_activity_location_info" >
+        </activity>
+        <activity
+            android:name=".Browser"
+            android:label="@string/title_activity_browser" >
+        </activity>
+        <activity
+            android:name=".customs_to_location"
+            android:label="@string/title_activity_customs_to_location" >
+        </activity>
+        <activity
+            android:name=".customs_2"
+            android:label="@string/title_activity_customs_2" >
+        </activity>
+        <activity
+            android:name=".data"
+            android:label="@string/title_activity_data" >
+        </activity>
+    </application>
+
+</manifest>

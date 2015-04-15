@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Border Wait Times</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="menu">
+        <item>Border Wait Times</item>
+        <item>Favourite Custom\'s Office / Locations</item>
+        <item>Settings</item>
+        <item>Contact us / Suggestions</item>
+    </string-array>
+
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+    <string name="title_activity_contact_us">Contact us / Suggestions</string>
+    <string name="title_activity_favourite">Favourite Locations</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_locations_info">Location Information</string>
+    <string name="title_activity_location_info">Location Information</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_browser">Browser</string>
+    <string name="title_activity_customs_to_location">customs_to_location</string>
+    <string name="title_activity_customs_2"></string>
+    <string name="title_activity_data">Timings</string>
+</resources>

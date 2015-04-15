@@ -1,0 +1,59 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout_data"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- The main content view -->
+    <FrameLayout
+        android:id="@+id/content_frame_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left|top"
+            android:id="@+id/mainLayout_data">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/button_favourite"
+                android:onClick="addToFavourite"
+                android:layout_marginTop="84dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/textview_data"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:textSize="25sp" />
+
+                <ListView
+                    android:id="@+id/ListView01"
+                    android:layout_height="582dp"
+                    android:layout_width="fill_parent"
+                    android:layout_below="@+id/button_favourite"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+    </FrameLayout>
+    <!-- The navigation drawer -->
+    <ListView android:id="@+id/left_drawer_data"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="#d4edff"/>
+</android.support.v4.widget.DrawerLayout>
